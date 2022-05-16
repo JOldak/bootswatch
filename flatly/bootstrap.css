@@ -2,7 +2,7 @@
 /*!
  * bootswatch v3.4.1
  * Homepage: https://bootswatch.com
- * Copyright 2012-2021 Thomas Park
+ * Copyright 2012-2022 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -1079,7 +1079,7 @@ html {
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   color: #2c3e50;
   background-color: #ffffff;
 }
@@ -1124,7 +1124,7 @@ img {
 }
 .img-thumbnail {
   padding: 4px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   background-color: #ffffff;
   border: 1px solid #ecf0f1;
   border-radius: 4px;
@@ -1137,8 +1137,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 183px;
-  margin-bottom: 183px;
+  margin-top: 23px;
+  margin-bottom: 23px;
   border: 0;
   border-top: 1px solid #ecf0f1;
 }
@@ -1215,8 +1215,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 183px;
-  margin-bottom: 91.5px;
+  margin-top: 23px;
+  margin-bottom: 11.5px;
 }
 h1 small,
 .h1 small,
@@ -1238,8 +1238,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 91.5px;
-  margin-bottom: 91.5px;
+  margin-top: 11.5px;
+  margin-bottom: 11.5px;
 }
 h4 small,
 .h4 small,
@@ -1269,21 +1269,21 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 20px;
+  font-size: 24px;
 }
 h5,
 .h5 {
-  font-size: 16px;
+  font-size: 20px;
 }
 h6,
 .h6 {
-  font-size: 14px;
+  font-size: 16px;
 }
 p {
-  margin: 0 0 91.5px;
+  margin: 0 0 11.5px;
 }
 .lead {
-  margin-bottom: 183px;
+  margin-bottom: 23px;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
@@ -1401,14 +1401,14 @@ a.bg-danger:focus {
   background-color: #d62c1a;
 }
 .page-header {
-  padding-bottom: 90.5px;
-  margin: 366px 0 183px;
+  padding-bottom: 10.5px;
+  margin: 46px 0 23px;
   border-bottom: 1px solid transparent;
 }
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 91.5px;
+  margin-bottom: 11.5px;
 }
 ul ul,
 ol ul,
@@ -1432,11 +1432,11 @@ ol ol {
 }
 dl {
   margin-top: 0;
-  margin-bottom: 183px;
+  margin-bottom: 23px;
 }
 dt,
 dd {
-  line-height: 11.4375;
+  line-height: 1.4375;
 }
 dt {
   font-weight: 700;
@@ -1467,8 +1467,8 @@ abbr[data-original-title] {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 91.5px 183px;
-  margin: 0 0 183px;
+  padding: 11.5px 23px;
+  margin: 0 0 23px;
   font-size: 20px;
   border-left: 5px solid #ecf0f1;
 }
@@ -1482,7 +1482,7 @@ blockquote small,
 blockquote .small {
   display: block;
   font-size: 80%;
-  line-height: 11.4375;
+  line-height: 1.4375;
   color: #b4bcc2;
 }
 blockquote footer:before,
@@ -1515,9 +1515,9 @@ blockquote.pull-right .small:after {
   content: "\00A0 \2014";
 }
 address {
-  margin-bottom: 183px;
+  margin-bottom: 23px;
   font-style: normal;
-  line-height: 11.4375;
+  line-height: 1.4375;
 }
 code,
 kbd,
@@ -1548,10 +1548,10 @@ kbd kbd {
 }
 pre {
   display: block;
-  padding: 91px;
-  margin: 0 0 91.5px;
+  padding: 11px;
+  margin: 0 0 11.5px;
   font-size: 15px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   color: #7b8a8b;
   word-break: break-all;
   word-wrap: break-word;
@@ -2272,7 +2272,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 183px;
+  margin-bottom: 23px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -2281,7 +2281,7 @@ th {
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
   padding: 8px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   vertical-align: top;
   border-top: 1px solid #ecf0f1;
 }
@@ -2444,7 +2444,7 @@ th {
 @media screen and (max-width: 767px) {
   .table-responsive {
     width: 100%;
-    margin-bottom: 137.25px;
+    margin-bottom: 17.25px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ecf0f1;
@@ -2496,7 +2496,7 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 183px;
+  margin-bottom: 23px;
   font-size: 24px;
   line-height: inherit;
   color: #2c3e50;
@@ -2549,16 +2549,16 @@ output {
   display: block;
   padding-top: 11px;
   font-size: 16px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   color: #2c3e50;
 }
 .form-control {
   display: block;
   width: 100%;
-  height: 207px;
+  height: 47px;
   padding: 10px 15px;
   font-size: 16px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   color: #2c3e50;
   background-color: #ffffff;
   background-image: none;
@@ -2604,7 +2604,7 @@ textarea.form-control {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 207px;
+    line-height: 47px;
   }
   input[type="date"].input-sm,
   input[type="time"].input-sm,
@@ -2645,7 +2645,7 @@ fieldset[disabled] .checkbox label {
 }
 .radio label,
 .checkbox label {
-  min-height: 183px;
+  min-height: 23px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: 400;
@@ -2685,7 +2685,7 @@ fieldset[disabled] .checkbox-inline {
   margin-left: 10px;
 }
 .form-control-static {
-  min-height: 199px;
+  min-height: 39px;
   padding-top: 11px;
   padding-bottom: 11px;
   margin-bottom: 0;
@@ -2727,7 +2727,7 @@ select[multiple].input-sm {
 }
 .form-group-sm .form-control-static {
   height: 37px;
-  min-height: 197px;
+  min-height: 37px;
   padding: 7px 9px;
   font-size: 14px;
   line-height: 1.5;
@@ -2764,7 +2764,7 @@ select[multiple].input-lg {
 }
 .form-group-lg .form-control-static {
   height: 67px;
-  min-height: 203px;
+  min-height: 43px;
   padding: 19px 27px;
   font-size: 20px;
   line-height: 1.3333333;
@@ -2773,7 +2773,7 @@ select[multiple].input-lg {
   position: relative;
 }
 .has-feedback .form-control {
-  padding-right: 258.75px;
+  padding-right: 58.75px;
 }
 .form-control-feedback {
   position: absolute;
@@ -2781,9 +2781,9 @@ select[multiple].input-lg {
   right: 0;
   z-index: 2;
   display: block;
-  width: 207px;
-  height: 207px;
-  line-height: 207px;
+  width: 47px;
+  height: 47px;
+  line-height: 47px;
   text-align: center;
   pointer-events: none;
 }
@@ -2886,7 +2886,7 @@ select[multiple].input-lg {
   color: #ffffff;
 }
 .has-feedback label ~ .form-control-feedback {
-  top: 188px;
+  top: 28px;
 }
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
@@ -2957,7 +2957,7 @@ select[multiple].input-lg {
 }
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 194px;
+  min-height: 34px;
 }
 .form-horizontal .form-group {
   margin-right: -15px;
@@ -2999,7 +2999,7 @@ select[multiple].input-lg {
   border: 1px solid transparent;
   padding: 10px 15px;
   font-size: 16px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   border-radius: 4px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3493,7 +3493,7 @@ tbody.collapse.in {
 }
 .dropdown-menu .divider {
   height: 1px;
-  margin: 90.5px 0;
+  margin: 10.5px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -3502,7 +3502,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   clear: both;
   font-weight: 400;
-  line-height: 11.4375;
+  line-height: 1.4375;
   color: #7b8a8b;
   white-space: nowrap;
 }
@@ -3551,7 +3551,7 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   font-size: 14px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   color: #b4bcc2;
   white-space: nowrap;
 }
@@ -3954,7 +3954,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav .nav-divider {
   height: 1px;
-  margin: 90.5px 0;
+  margin: 10.5px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -3970,7 +3970,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
 }
@@ -4112,7 +4112,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 60px;
-  margin-bottom: 183px;
+  margin-bottom: 23px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4218,9 +4218,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 60px;
-  padding: -61.5px 15px;
+  padding: 18.5px 15px;
   font-size: 20px;
-  line-height: 183px;
+  line-height: 23px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4265,12 +4265,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: -30.75px -15px;
+  margin: 9.25px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 183px;
+  line-height: 23px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4287,7 +4287,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding: 5px 15px 5px 25px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 183px;
+    line-height: 23px;
   }
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4303,8 +4303,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: -61.5px;
-    padding-bottom: -61.5px;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
   }
 }
 .navbar-form {
@@ -4314,8 +4314,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: -73.5px;
-  margin-bottom: -73.5px;
+  margin-top: 6.5px;
+  margin-bottom: 6.5px;
 }
 @media (min-width: 768px) {
   .navbar-form .form-group {
@@ -4399,8 +4399,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: -73.5px;
-  margin-bottom: -73.5px;
+  margin-top: 6.5px;
+  margin-bottom: 6.5px;
 }
 .navbar-btn.btn-sm {
   margin-top: 11.5px;
@@ -4411,8 +4411,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 19px;
 }
 .navbar-text {
-  margin-top: -61.5px;
-  margin-bottom: -61.5px;
+  margin-top: 18.5px;
+  margin-bottom: 18.5px;
 }
 @media (min-width: 768px) {
   .navbar-text {
@@ -4633,7 +4633,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 183px;
+  margin-bottom: 23px;
   list-style: none;
   background-color: #ecf0f1;
   border-radius: 4px;
@@ -4652,7 +4652,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 183px 0;
+  margin: 23px 0;
   border-radius: 4px;
 }
 .pagination > li {
@@ -4664,7 +4664,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   float: left;
   padding: 10px 15px;
   margin-left: -1px;
-  line-height: 11.4375;
+  line-height: 1.4375;
   color: #ffffff;
   text-decoration: none;
   background-color: #18bc9c;
@@ -4747,7 +4747,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .pager {
   padding-left: 0;
-  margin: 183px 0;
+  margin: 23px 0;
   text-align: center;
   list-style: none;
 }
@@ -4942,8 +4942,8 @@ a.badge:focus {
 .thumbnail {
   display: block;
   padding: 4px;
-  margin-bottom: 183px;
-  line-height: 11.4375;
+  margin-bottom: 23px;
+  line-height: 1.4375;
   background-color: #ffffff;
   border: 1px solid #ecf0f1;
   border-radius: 4px;
@@ -4965,7 +4965,7 @@ a.thumbnail.active {
 }
 .alert {
   padding: 15px;
-  margin-bottom: 183px;
+  margin-bottom: 23px;
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -5055,8 +5055,8 @@ a.thumbnail.active {
   }
 }
 .progress {
-  height: 183px;
-  margin-bottom: 183px;
+  height: 23px;
+  margin-bottom: 23px;
   overflow: hidden;
   background-color: #ecf0f1;
   border-radius: 4px;
@@ -5067,7 +5067,7 @@ a.thumbnail.active {
   width: 0%;
   height: 100%;
   font-size: 14px;
-  line-height: 183px;
+  line-height: 23px;
   color: #ffffff;
   text-align: center;
   background-color: #2c3e50;
@@ -5363,7 +5363,7 @@ button.list-group-item-danger.active:focus {
   line-height: 1.3;
 }
 .panel {
-  margin-bottom: 183px;
+  margin-bottom: 23px;
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -5574,7 +5574,7 @@ button.list-group-item-danger.active:focus {
   border: 0;
 }
 .panel-group {
-  margin-bottom: 183px;
+  margin-bottom: 23px;
 }
 .panel-group .panel {
   margin-bottom: 0;
@@ -5847,7 +5847,7 @@ button.close {
 }
 .modal-title {
   margin: 0;
-  line-height: 11.4375;
+  line-height: 1.4375;
 }
 .modal-body {
   position: relative;
@@ -5899,7 +5899,7 @@ button.close {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 11.4375;
+  line-height: 1.4375;
   line-break: auto;
   text-align: left;
   text-align: start;
@@ -6017,7 +6017,7 @@ button.close {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 11.4375;
+  line-height: 1.4375;
   line-break: auto;
   text-align: left;
   text-align: start;
@@ -6688,6 +6688,14 @@ button.close {
 .text-info,
 .text-info:hover {
   color: #3498db;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 19.55px;
 }
 table a:not(.btn),
 .table a:not(.btn) {

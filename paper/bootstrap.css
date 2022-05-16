@@ -2,7 +2,7 @@
 /*!
  * bootswatch v3.4.1
  * Homepage: https://bootswatch.com
- * Copyright 2012-2021 Thomas Park
+ * Copyright 2012-2022 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -1277,7 +1277,7 @@ h5,
 }
 h6,
 .h6 {
-  font-size: 14px;
+  font-size: 16px;
 }
 p {
   margin: 0 0 14.5px;
@@ -6848,6 +6848,14 @@ button {
 }
 a {
   transition: all 0.2s;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 24.65px;
 }
 .table-hover > tbody > tr,
 .table-hover > tbody > tr > th,
