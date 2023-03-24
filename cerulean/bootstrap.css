@@ -1,7 +1,7 @@
 /*!
  * bootswatch v3.4.1
  * Homepage: https://bootswatch.com
- * Copyright 2012-2022 Thomas Park
+ * Copyright 2012-2023 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -6674,14 +6674,23 @@ button.close {
 .navbar-brand {
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
-@media (max-width: 767px) {
-  .navbar .dropdown-header {
-    color: #fff;
-  }
-  .navbar .dropdown-menu a {
-    color: #fff;
+/* - makes the text invisible in the dropdown??
+@media (max-width: @grid-float-breakpoint-max) {
+
+  .navbar {
+
+    .dropdown-header {
+      color: #fff;
+    }
+
+    .dropdown-menu {
+      a {
+        color: #fff;
+      }
+    }
   }
 }
+*/
 .btn {
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
