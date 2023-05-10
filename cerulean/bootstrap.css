@@ -1122,7 +1122,7 @@ img {
   border-radius: 6px;
 }
 .img-thumbnail {
-  padding: 4px;
+  padding: 8px;
   line-height: 1.4375;
   background-color: #ffffff;
   border: 1px solid #dddddd;
@@ -4940,7 +4940,7 @@ a.badge:focus {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 8px;
   margin-bottom: 23px;
   line-height: 1.4375;
   background-color: #ffffff;
