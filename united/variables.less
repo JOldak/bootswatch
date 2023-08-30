@@ -7,6 +7,9 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
+@hear-red: lighten(#9e252b,10%);
+@hear-purple: #721250;
+
 @gray-base:              #000;
 @gray-darker:            lighten(@gray-base, 13.5%); // #222
 @gray-dark:              #333;   // #333
@@ -14,9 +17,9 @@
 @gray-light:             #9C938B; //#AEA79F;   // #999
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         #E95420;
+@brand-primary:         @hear-red; //#E95420; 
 @brand-success:         #34A845; //#38B44A;
-@brand-info:            #772953;
+@brand-info:            @hear-purple; //#772953; 
 @brand-warning:         #C18910; //#EFB73E;
 @brand-danger:          #DF382C;
 
@@ -42,33 +45,33 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  'Roboto', sans-serif;
+@font-family-serif:       Georgia, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          16px;
-@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
-@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+@font-size-base:          18px;
+@font-size-large:         ceil((@font-size-base * 1.25)); // ~23px
+@font-size-small:         ceil((@font-size-base * 0.85)); // ~16px
 
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
-@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
-@font-size-h4:            ceil((@font-size-base * 1.5)); // ~18px
-@font-size-h5:            ceil((@font-size-base * 1.25)); // ~12px
+@font-size-h1:            floor((@font-size-base * 2.6)); // ~46px
+@font-size-h2:            floor((@font-size-base * 2.15)); // ~38px
+@font-size-h3:            ceil((@font-size-base * 1.7)); // ~31px
+@font-size-h4:            ceil((@font-size-base * 1.5)); // ~27px
+@font-size-h5:            ceil((@font-size-base * 1.25)); // ~23px
 @font-size-h6:            @font-size-base;
 
 //** Unit-less `line-height` for use in components like buttons.
-@line-height-base:        1.4375; // 23/16
+@line-height-base:        1.6667; // 30/18
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
-@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~23px
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~30px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    @font-family-base;
-@headings-font-weight:    500;
-@headings-line-height:    1.1;
-@headings-color:          inherit;
+@headings-font-family:    'Encode Sans', sans-serif;
+@headings-font-weight:    600;
+@headings-line-height:    1.4;
+@headings-color:          @hear-purple; //inherit;
 
 
 //== Iconography
@@ -200,7 +203,7 @@
 @input-border-radius-small:      @border-radius-small;
 
 //** Border color for inputs on focus
-@input-border-focus:             #66afe9;
+@input-border-focus:             @hear-purple;
 
 //** Placeholder text color
 @input-color-placeholder:        @gray-light;
